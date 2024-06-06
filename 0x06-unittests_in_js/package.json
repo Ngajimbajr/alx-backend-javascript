@@ -1,15 +1,18 @@
 {
   "name": "0x06-unittests_in_js",
   "version": "1.0.0",
-  "description": "0x06-unittests_in_js",
+  "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "mocha 0-calcul.test.js"
+    "test": "mocha --require esm 0-calcul.test.js 2-calcul_chai.test.mjs"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^10.4.0"
+    "mocha": "^10.2.0",
+    "chai": "^4.3.4",
+    "esm": "^3.2.25"
   }
 }
+
