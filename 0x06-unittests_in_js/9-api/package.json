@@ -1,0 +1,15 @@
+{
+  "name": "9-api",
+  "version": "1.0.0",
+  "description": "A simple API for learning basic integration testing in NodeJS.",
+  "main": "api.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
+
